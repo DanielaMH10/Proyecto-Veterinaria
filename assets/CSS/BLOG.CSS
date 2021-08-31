@@ -1,0 +1,27 @@
+#blog h3, h4 {
+	font-family: cursive;
+	color: #8EBE86;
+}
+
+#blog .contenedor {
+	display: flex;
+	justify-content: center;
+	/*los elemtyos que no caben se acomoden uno debajo del otro*/
+	flex-wrap: wrap;
+}
+
+
+#blog article {
+	margin: 15px;
+}
+
+#blog img {
+	width: 100%;
+	max-width: 280%;
+}
+
+#bienvenidos {
+	font-family: "cursive", sanvito;
+	font-size: 30px;
+	color: #8EBE86;
+}

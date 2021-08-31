@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/fondo4.jpg) no-repeat center top;
+	background-position: center center;
+	/* Para que la imagen de fondo no se repita */
+	background-repeat: no-repeat;
+	/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+	background-attachment: fixed;
+	/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+	background-size: cover;
+	font-family: sans-serif;
+	text-align: center;
+	height: 100vh;
+	
+}
+body figure{
+	display:block;
+	margin:auto;
+}
+img{
+display:block;
+margin:auto;
+}
+.divClass{
+	background: #525252;
+	border-radius: 0 20px 20px 0;
+}
+.box{
+	opacity:1;
+	width: 98%;
+	max-width: 800px;
+	margin: auto;
+	background: #3A3B47;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.link {
+	color: white;
+}
+@media (min-width: 1024px) {
+	.box {
+		width: 1000px;
+	}
+}
+
+@media (min-width: 768px) {
+	
+	.box {
+		height: 300px;
+		overflow: hidden;
+	}
+
+	@media (min-width: 480px) {
+		.box {
+			width: auto;
+			height: auto;
+		}
+	}

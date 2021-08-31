@@ -1,0 +1,41 @@
+
+#info {
+	/*CAMBIE EL COLOR DEL CONTENEDOR*/
+	background: #525252;
+	color:#fff;
+	text-align: center;
+	padding: 20px;
+}
+#info .contenedor {
+	/*para que se adapte a medida de como este la pantalla*/
+	display: flex;
+	justify-content: center;
+	/*los elemtyos que no caben se acomoden uno debajo del otro*/
+	flex-wrap: wrap;
+}
+
+.info-pet {
+	margin: 20px;
+}
+
+.info-pet img {
+	width: 180px;
+	height: 180px;
+	/*para convertir la imagen en un circulo
+	border-radius: 50%;*/
+	border: 7px solid #fff;
+}
+
+/*para organizar info en 2 columnas y luego en una fila*/
+
+@media (min-width: 480px) {
+	.info-pet {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.info-pet {
+		width: auto;
+	}
+}

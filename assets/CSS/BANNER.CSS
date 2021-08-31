@@ -1,0 +1,79 @@
+#banner {
+	/*empiece debajo del menu o header*/
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img {
+	width: 100%;
+	height: 100%;
+}
+
+#banner .contenedor {
+	/*para que se posicione ante su antecesor*/
+	position: absolute;
+	/*posicionar el texto en la imagen */
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%) ;
+	color: #FA3105;
+	font-family: cursive;
+	font-size: 40px;
+}
+
+#banner h2 {
+	font-size: 28px;
+	color: #FA3105;
+	font-family: cursive;
+}
+
+#banner a {
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border:3px solid #fff;
+}
+
+
+/*para cuando pase el mouse aparezca color*/
+#banner a:hover {
+	background: rgba(51,51,51,0.5);
+}
+
+/*ajustar el texto */
+
+@media (min-width: 480px) {
+	
+	#banner h2 {
+		font-size: 40px;
+	}
+
+	#banner a {
+		margin-top: 25px;
+	}
+}
+ /*para tablet*/
+@media (min-width: 768px) {
+	
+	#banner {
+		height: 300px;
+		overflow: hidden;
+	}
+
+	/*para que se adapte la imagen 'auto'*/
+	#banner img {
+		height: auto;
+		margin-top: -100px;
+	}
+}
+/*para escritorio */
+@media (min-width: 1024px) {
+	
+	/*imagen suba y se vea mejor en escritorio*/
+	#banner img {
+		margin-top: -600px;
+	}
+}

@@ -1,0 +1,59 @@
+
+/*se usa para darle estilo a toda la pantalla*/
+* {
+	margin: 0;
+	padding: 0;
+	/*para que los bordes sean dentro del mismo modelo de caja y no se salga*/
+	box-sizing: border-box;
+}  
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+/*darle forma al menu*/
+header {
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;                                                                                                            
+	/*para que quede pegado y cuando yo baje no se mueva de donde esta*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*para que este siempre sea el header el que tape a los demas*/
+	z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	/*para que este centrado*/
+	margin: auto;
+}
+
+h1 {
+	/*que flotexd */
+	float: left;
+}
+
+/*para limpiar los float*/
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	width: 100%;
+	/*separacion de la imagen con el texto*/
+	margin-bottom: 25px;
+}
+
+/*para que los contenedores no se pasen de los 1000px
+independientemente de donde se mire */
+
+@media (min-width: 1024px) {
+	.contenedor {
+		width: 1000px;
+	}
+}
+
+
