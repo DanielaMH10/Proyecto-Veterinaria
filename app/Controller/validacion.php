@@ -17,7 +17,7 @@ if (isset($_POST['Entrar'])) {
 		}*/
 	if ($obUsuario->usuarioExistente ($inputDocumento, $inputPass)==true) {
 		if ($obUsuario->Rol($inputDocumento)==true) {
-		 	header("Location:../View/menumedico.php");
+		 	header("Location:../View/Medico/menumedico.php");
 		} 
 		elseif ($obUsuario->Rol($inputDocumento)==false) {
 			header("Location:../View/menupaciente.php");

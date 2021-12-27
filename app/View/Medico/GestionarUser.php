@@ -4,7 +4,7 @@ include "../../config.php";
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<?php include FOLDER_TEMPLATE . 'head.php';?>
+    <?php include FOLDER_TEMPLATE . 'head.php';?>
     <link rel="stylesheet"  href="<?= URL_CSS?>estilo_form.css"> 
     <?php include FOLDER_TEMPLATE . 'scripts.php' ?>
     <!--====== Javascripts & Jquery ======-->
@@ -13,14 +13,14 @@ include "../../config.php";
 </head>
 <body>
     <figure><img src="<?= URL_IMG?>vet.jpeg" class="logo" alt="logodevete"></figure>
-	<!-- Page Preloder 
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>-->
-	<!-- Header section -->
-	<!--?php include FOLDER_TEMPLATE . 'menu.php' ?-->
-	<!-- Header section end-->
-	<!-- Hero section end-->
+    <!-- Page Preloder 
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>-->
+    <!-- Header section -->
+    <!--?php include FOLDER_TEMPLATE . 'menu.php' ?-->
+    <!-- Header section end-->
+    <!-- Hero section end-->
     <?php include FOLDER_VIEWS.'actualizar_usuario.php' ?>
 
 
@@ -152,10 +152,10 @@ include "../../config.php";
 
 
 <!--====== Javascripts & Jquery ======-->
-	<!--script src="bootstrap/js/jquery-3.2.1.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="bootstrap/js/owl.carousel.min.js"></script>
-	<script src="bootstrap/js/main.js"></script-->
+    <!--script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/owl.carousel.min.js"></script>
+    <script src="bootstrap/js/main.js"></script-->
 
-	</body>
-	</html>
+    </body>
+    </html>
