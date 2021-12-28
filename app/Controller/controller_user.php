@@ -43,7 +43,7 @@ if (isset($_POST['Registrar'])){
 				<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 				</head>
 				<body>
-				<form class="box" action="../View/registrar_usuarios.php">
+				<form class="box" action="../View/Medico/registrar_usuarios.php">
 				<img src="../../assets/img/vet.jpeg" class="logo" alt="logodevete">
 				<div class="alert alert-primary alert-dismissible fade show" role="alert"><h3>¡Listo!</h3><hr>Usuario registrado <button type="submit"  class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span></button>
@@ -63,7 +63,7 @@ if (isset($_POST['Registrar'])){
 			<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 			</head>
 			<body>
-			<form class="box" action="../View/registrar_usuarios.php">
+			<form class="box" action="../View/Medico/registrar_usuarios.php">
 			<img src="../../assets/img/vet.jpeg" class="logo" alt="logodevete">
 			<div class="alert alert-danger alert-dismissible fade show" role="alert"> <h3>¡ERROR!</h3><hr>Debe de llenar todos los campos <button type="submit"  class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span></button>
@@ -92,7 +92,7 @@ if (isset($_POST['Registrar'])){
 			<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 			</head>
 			<body>
-			<form class="box" action="../View/registrar_usuarios.php">
+			<form class="box" action="../View/Medico/registrar_usuarios.php">
 			<img src="../../assets/img/vet.jpeg" class="logo" alt="logodevete">
 			<div class="alert alert-primary alert-dismissible fade show" role="alert"><h3>¡Listo!</h3><hr>Usuario registrado <button type="submit"  class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span></button>
@@ -112,7 +112,7 @@ if (isset($_POST['Registrar'])){
 			<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 			</head>
 			<body>
-			<form class="box" action="../View/registrar_usuarios.php">
+			<form class="box" action="../View/Medico/registrar_usuarios.php">
 			<img src="../../assets/img/vet.jpeg" class="logo" alt="logodevete">
 			<div class="alert alert-danger alert-dismissible fade show" role="alert"> <h3>¡ERROR!</h3><hr>Debe de llenar todos los campos <button type="submit"  class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span></button>

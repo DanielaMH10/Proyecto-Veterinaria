@@ -1,5 +1,5 @@
 <?php 
-include "../../config.php";
+include "../../../config.php";
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -21,7 +21,7 @@ include "../../config.php";
     <!--?php include FOLDER_TEMPLATE . 'menu.php' ?-->
     <!-- Header section end-->
     <!-- Hero section end-->
-    <?php include FOLDER_VIEWS.'actualizar_usuario.php' ?>
+    <?php include FOLDER_VIEWS_MEDICO.'actualizar_usuario.php' ?>
 
 
     <!-- Modal -->
@@ -102,7 +102,7 @@ include "../../config.php";
 </div>
 <br>
 <div class="container">
-    <FORM method="POST" id="formUserRegresar" action="../View/registrar_usuarios.php">
+    <FORM method="POST" id="formUserRegresar" action="../../View/Medico/registrar_usuarios.php">
       <button class="btn btn-dark" type="submit"id="btnFormRegistrarUsers">
        Registrar Usuario
    </button>
@@ -133,7 +133,7 @@ include "../../config.php";
 <tfoot>
     <tr>
         <th colspan="9" class="col">
-            <FORM method="POST" action="../View/menumedico.php">
+            <FORM method="POST" action="../../View/Medico/menumedico.php">
                 <button class='btn btn-primary' type='submit' name='btnRegresar' id="btnRegresar">
                     Regresar
                 </button>

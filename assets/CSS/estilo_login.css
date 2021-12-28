@@ -10,9 +10,9 @@ body{
 .login {
 	opacity:0.6;
 	/*ancho*/
-	width: 30%;
+	width: 40%;
 	max-width: 1000px;
-	height: 50%;
+	height: 60%;
 	background: #525252;
 	color: #FFFFFF;
 	top: 50%;

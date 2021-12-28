@@ -1,5 +1,5 @@
 <?php
-	include "../../config.php"; 
+include "../../../config.php"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@
 <body>
 	<form method="POST" action="<?= URL_CONTROLLER?>controller_user.php" class="box">
 		<img src="<?= URL_IMG?>vet.jpeg" class="logo" alt="logodevete">
-		<h1> RE-AGENDAR </h1>
+		<h1> ASIGNACIÓN </h1>
 		<table border="0">
 			<tr>
 				<td width="50%" >Nombre:</td> 
@@ -32,7 +32,7 @@
 			</tr>
 		</table>
 		<p>
-			<input type="submit" value="Agendar" name="Agendar">
+			<input type="submit" value="Asignar" name="Asignar">
 			<input type="submit" onclick="location.href='menumedico.php'" value="Regresar" name="Regresar">
 		</p>
 	</form>

@@ -1,5 +1,5 @@
 <?php
-	include "../../config.php"; 
+	include "../../../config.php"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,15 +13,18 @@
 	<form method="POST" action="<?= URL_CONTROLLER?>controller_user.php" class="box">
 		<img src="<?= URL_IMG?>vet.jpeg" class="logo" alt="logodevete">
 		<h1> CONSULTA </h1>
-		<br></br>
 		<table border="0">
 			<tr>
-				<td width="50%" >Nombre:</td> 
-				<td width="50%" ><input type="text" name="nombre" maxlength="12" required="" /></td>
+				<td width="50%" >Fecha:</td>
+				<td width="50%" ><input type="date" name="fecha" maxlength="100" required="" /></td>
 			</tr>
 			<tr>
-				<td width="50%" >Apellido:</td>
-				<td width="50%" ><input type="text" name="apellido" maxlength="12" required="" /></td>
+				<td width="50%" >Hora:</td>
+				<td width="50%"><input type="datetime" name="hora" maxlength="100" required="" /></td>
+			</tr>
+			<tr>
+				<td width="50%" >Consultorio:</td>
+				<td width="50%" ><input type="text" name="consultorio" maxlength="10" required="" /></td>
 			</tr>
 		</table>
 		<p>
@@ -31,5 +34,3 @@
 	</form>
 </body>
 </html>
-
-	
