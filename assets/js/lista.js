@@ -13,7 +13,7 @@ $(document).ready(function(){
 function obtener_usuarios(data){
 
   $.ajax({
-    url: "../Controller/listaUser.php",
+    url: "../../Controller/listaUser.php",
     type: "POST",
     data: data
         //dataType: "JSON"
@@ -56,7 +56,7 @@ function obtener_usuarios(data){
 }
 function consultaUsuarioId(id) {
   $.ajax({
-    url: "../Controller/consultaUserId.php",
+    url: "../../Controller/consultaUserId.php",
     type: "POST",
     data: {
       id
@@ -160,7 +160,7 @@ else if(!regexText.test(apellidoUsuario)){
 }
 else{
   $.ajax({
-    url: "../Controller/controller_user.php",
+    url: "../../Controller/controller_user.php",
     type: "POST",
     data: {
       idUsuario,
@@ -192,7 +192,7 @@ function eliminar(id) {
   if (confirm("¿Desea eliminar este usuario?")) {
     //document.location.href= "../Controllers/delete_Usuarios.php?id=" + id;
     $.ajax({
-      url: "../Controller/controller_user.php",
+      url: "../../Controller/controller_user.php?id= + id",
       type: "GET",
       dataType: "text",
       data:{
