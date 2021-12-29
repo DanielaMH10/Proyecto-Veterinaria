@@ -20,7 +20,7 @@ if (isset($_POST['Entrar'])) {
 		 	header("Location:../View/Medico/menumedico.php");
 		} 
 		elseif ($obUsuario->Rol($inputDocumento)==false) {
-			header("Location:../View/menupaciente.php");
+			header("Location:../View/Paciente/menupaciente.php");
 		}
 	}
 	else {

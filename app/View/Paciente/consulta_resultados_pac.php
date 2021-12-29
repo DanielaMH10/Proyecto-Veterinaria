@@ -1,14 +1,17 @@
+<?php
+	include "../../../config.php"; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Veterinaria Dr. Jairo Rojas</title>
-	<link rel="stylesheet"  href="../../assests/CSS/estilo_form.css">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<?php
+	include FOLDER_TEMPLATE."head.php";
+	?>
+	<link rel="stylesheet"  href="<?= URL_CSS?>estilo_form.css">
 </head>
 <body>
-	<form method="POST" action="../Controller/controller_user.php" class="box">
-		<img src="../../assests/img/vet.jpeg" class="logo" alt="logodevete">
+	<form method="POST" action="<?= URL_CONTROLLER?>controller_user.php" class="box">
+		<img src="<?= URL_IMG?>vet.jpeg" class="logo" alt="logodevete">
 		<h1> CONSULTA </h1>
 		<table border="0">
 		<tr>
@@ -22,7 +25,7 @@
 		</table>
 		<p>
 			<input type="submit" value="Consultar" name="Consultar">
-			<input type="submit" value="Regresar" name="Regresar">
+			<input type="submit" onclick="location.href='menupaciente.php'" value="Regresar" name="Regresar">
 		</p>
 	</form>
 </body>
