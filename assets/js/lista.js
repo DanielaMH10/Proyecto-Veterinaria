@@ -192,7 +192,7 @@ function eliminar(id) {
   if (confirm("¿Desea eliminar este usuario?")) {
     //document.location.href= "../Controllers/delete_Usuarios.php?id=" + id;
     $.ajax({
-      url: "../../Controller/controller_user.php?id= + id",
+      url: "../../Controller/controller_user.php",
       type: "GET",
       dataType: "text",
       data:{
