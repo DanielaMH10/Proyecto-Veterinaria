@@ -113,8 +113,8 @@ function updateUser(){
     passwordUsuario == "" || passwordUsuario == 0 ||
     estadoUsuario == "" || estadoUsuario == 0 ) {
     var mensaje = `<div class='alert alert-danger alert-dismissible fade show' role='alert'> <h3>¡Aviso!</h3><hr>Debe llenar todos los campos
-  <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-  <span aria-hidden='true'>&times;</span></button></div>`;
+    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+    <span aria-hidden='true'>&times;</span></button></div>`;
 
   $("#mensaje").html(mensaje);
 }
