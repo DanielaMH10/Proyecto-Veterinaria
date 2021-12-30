@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" href="<?=URL_CSS ?>slick.css"/>
         <link rel="stylesheet" href="<?=URL_CSS ?>bootstrap-icons.css">
-        <script src="<?= URL_JS?>validacionLogin.js"></script>
+        <!--<script src=" URL_JS?>validacionLogin.js"></script>-->
         <?php include FOLDER_TEMPLATE . 'scripts.php' ?>
  
     </head>

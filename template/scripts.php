@@ -7,5 +7,4 @@
         <script src="<?= URL_JS?>jQuery.headroom.js"></script>
         <script src="<?= URL_JS?>slick.min.js"></script>
         <script src="<?= URL_JS?>custom.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
