@@ -17,21 +17,21 @@
 				<li><a href="">Citas</a>
 					<ul class="submenu">
 						
-						<li><a href="<?= URL_VIEW_PACIENTE?>agendar_cita_paciente.php">Agendar </a></li>
-						<li><a href="<?= URL_VIEW_PACIENTE?>consultar_cita_paciente.php">Consultar </a></li>
-						<li><a href="<?= URL_VIEW_PACIENTE?>cancelar_cita_paciente.php">Cancelar </a></li>
+						<li><a href="<?= URL_VIEW?>Paciente/agendar_cita_paciente.php">Agendar </a></li>
+						<li><a href="<?= URL_VIEW?>Paciente/consultar_cita_paciente.php">Consultar </a></li>
+						<li><a href="<?= URL_VIEW?>Paciente/cancelar_cita_paciente.php">Cancelar </a></li>
 					</ul>
 				</li>
 
 				<li><a href="">Historia clínica</a>
 					<ul class="submenu">
-						<li><a href="<?= URL_VIEW_PACIENTE?>consulta_historia_paciente.php">Consultar</a></li>
+						<li><a href="<?= URL_VIEW?>Paciente/consulta_historia_paciente.php">Consultar</a></li>
 					</ul>
 				</li>
 
 				<li><a href="">Laboratorio</a>
 					<ul class="submenu">
-						<li><a href="<?= URL_VIEW_PACIENTE?>consulta_resultados_pac.php">Consultar resultados</a></li>
+						<li><a href="<?= URL_VIEW?>Paciente/consulta_resultados_pac.php">Consultar resultados</a></li>
 					</ul>
 				</li>
 				<li><a href="<?= URL_PROY?>index.php">Regresar</a></li>

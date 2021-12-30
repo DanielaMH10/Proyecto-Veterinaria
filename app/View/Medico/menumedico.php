@@ -14,7 +14,7 @@
 
 		<nav>
 			<ul>
-				<li><a href="<?= URL_VIEW_MEDICO?>GestionarUser.php">Gestionar usuarios</a>
+				<li><a href="<?= URL_VIEW?>Medico/GestionarUser.php">Gestionar usuarios</a>
 					<!--ul >
 						<li><a href="<?=URL_VIEW?>pruebaView.php">Consultar</a></li>
 						<li><a href="registrar_usuarios.php">Registrar </a></li>
