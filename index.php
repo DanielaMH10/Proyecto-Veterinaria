@@ -119,13 +119,13 @@
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                                 <h4 class="mb-3">Good <span>Design</span> <br>Ideas for <span>your</span> fashion</h4>
 
-                                                <p>Little Fashion templates comes with <a href="<?=URL_VIEW ?>sign-in.php">sign in</a> / <a href="<?=URL_VIEW ?>sign-up.php">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
+                                                <p><img src="<?= URL_IMG?>doctor.jpg" class="img-fluid" alt="">Little Fashion templates comes with  /  pages, product listing / product detail, about, FAQs, and contact page.</p>
 
                                                 <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
 
                                                 <div class="mt-2 mt-lg-auto">
                                                     <a href="<?=URL_VIEW ?>about.php" class="custom-link mb-2">
-                                                        Learn more about us
+                                                        Leer más sobre nosotros
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
                                                 </div>
@@ -245,7 +245,7 @@
                     <div class="row">
                         
                         <div class="col-12 text-center">
-                            <h2 class="mb-5">Featured Products</h2>
+                            <h2 class="mb-5">Nuestros Servicios</h2>
                         </div>
 
                         <div class="col-lg-4 col-12 mb-3">
@@ -255,7 +255,7 @@
                                 </a>
 
                                 <div class="product-top d-flex">
-                                    <span class="product-alert me-auto">New Arrival</span>
+                                    <span class="product-alert me-auto">1</span>
 
                                     <a href="#" class="bi-heart-fill product-icon"></a>
                                 </div>
@@ -263,13 +263,12 @@
                                 <div class="product-info d-flex">
                                     <div>
                                         <h5 class="product-title mb-0">
-                                            <a href="<?=URL_VIEW ?>product-detail.php" class="product-title-link">Tree pot</a>
+                                            <a href="<?=URL_VIEW ?>product-detail.php" class="product-title-link">Consulta presencial</a>
                                         </h5>
 
-                                        <p class="product-p">Original package design from house</p>
+                                        <p class="product-p"></p>
                                     </div>
 
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
                                 </div>
                             </div>
                         </div>
@@ -281,7 +280,7 @@
                                 </a>
 
                                 <div class="product-top d-flex">
-                                    <span class="product-alert">Low Price</span>
+                                    <span class="product-alert">2</span>
 
                                     <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
                                 </div>
@@ -289,13 +288,12 @@
                                 <div class="product-info d-flex">
                                     <div>
                                         <h5 class="product-title mb-0">
-                                            <a href="<?=URL_VIEW ?>product-detail.php" class="product-title-link">Fashion Set</a>
+                                            <a href="<?=URL_VIEW ?>product-detail.php" class="product-title-link">Teleconsulta</a>
                                         </h5>
 
-                                        <p class="product-p">Costume Package</p>
+                                        <p class="product-p"></p>
                                     </div>
 
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
                                 </div>
                             </div>
                         </div>
@@ -307,25 +305,25 @@
                                 </a>
 
                                 <div class="product-top d-flex">
+                                <span class="product-alert">3</span>
                                     <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
                                 </div>
 
                                 <div class="product-info d-flex">
                                     <div>
                                         <h5 class="product-title mb-0">
-                                            <a href="<?=URL_VIEW ?>product-detail.php" class="product-title-link">Juice Drinks</a>
+                                            <a href="<?=URL_VIEW ?>product-detail.php" class="product-title-link">Cirugías básicas </a>
                                         </h5>
 
-                                        <p class="product-p">Nature made another world</p>
+                                        <p class="product-p"></p>
                                     </div>
 
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-12 text-center">
-                            <a href="<?=URL_VIEW ?>products.php" class="view-all">View All Products</a>
+                            <a href="<?=URL_VIEW ?>products.php" class="view-all">Ver Servicios...</a>
                         </div>
 
                     </div>

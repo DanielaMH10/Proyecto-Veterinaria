@@ -24,7 +24,7 @@ if (isset($_POST['Entrar'])) {
 		}
 	}
 	else {
-		header("Location:../index.php");
+		header("Location:../View/sign-in.php");
 	} 
 }
 ?>

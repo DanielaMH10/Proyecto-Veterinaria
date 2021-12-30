@@ -10,6 +10,7 @@
 
         <link rel="stylesheet" href="<?=URL_CSS ?>slick.css"/>
         <link rel="stylesheet" href="<?=URL_CSS ?>bootstrap-icons.css">
+        <script src="<?= URL_JS?>validacionLogin.js"></script>
         <?php include FOLDER_TEMPLATE . 'scripts.php' ?>
  
     </head>
@@ -34,21 +35,21 @@
 
                             <div class="row">
                                 <div class="col-lg-8 col-11 mx-auto">
-                                    <form role="form" method="post">
+                                    <form  action="<?= URL_CONTROLLER ?>validacion.php" role="form" method="post" id="formLogin" class="form">
 
                                         <div class="form-floating mb-4 p-0">
-                                            <input type="number" name="email" id="email"  class="form-control" placeholder="1111" required>
+                                            <input type="number" name="documento" id="documento"  class="form-control" placeholder="1111" required>
 
                                             <label for="email">Documento</label>
                                         </div>
 
                                         <div class="form-floating p-0">
-                                            <input type="password" name="password" id="password" class="form-control" placeholder="****" required>
+                                            <input type="password" name="pass" id="pass" class="form-control" placeholder="****" required>
 
                                             <label for="password">Contraseña</label>
                                         </div>
 
-                                        <button type="submit" class="btn custom-btn form-control mt-4 mb-3">
+                                        <button type="submit" class="btn custom-btn form-control mt-4 mb-3" id="Entrar" name="Entrar" value=" Entrar">
                                             Ingresar
                                         </button>
                                     </form>
