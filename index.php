@@ -97,12 +97,9 @@
                                 </li>
 
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Doctores</button>
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Doctor</button>
                                 </li>
 
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Capacitaciones</button>
-                                </li>
                             </ul>
                         </div>
 
@@ -117,16 +114,15 @@
 
                                         <div class="col-lg-5 col-12">
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                <h4 class="mb-3">Good <span>Design</span> <br>Ideas for <span>your</span> fashion</h4>
+                                                <h4 class="mb-3">Doctor <span>Jairo Ivan Rojas </span></h4>
 
-                                                <p><img src="<?= URL_IMG?>doctor.jpg" class="img-fluid" alt="">Little Fashion templates comes with  /  pages, product listing / product detail, about, FAQs, and contact page.</p>
+                                                <p><img src="<?= URL_IMG?>doctor.jpg" class="img-fluid" alt="">Él es el doctor Jairo Ivan Rojas Hernandez, quien esta acargo de la veterinaria y esta dispuesto atender cualquier caso medico veterinario.</p>
 
-                                                <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
+                                                <p>Cuenta con una titulación y su especializacion en zootecnia.</p>
 
                                                 <div class="mt-2 mt-lg-auto">
                                                     <a href="<?=URL_VIEW ?>about.php" class="custom-link mb-2">
                                                         Leer más sobre nosotros
-                                                        <i class="bi-arrow-right ms-2"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -145,94 +141,27 @@
 
                                         <div class="col-lg-5 col-12">
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                <h4 class="mb-3">Life at Studio</h4>
+                                                <h4 class="mb-3">Trabajo en campo</h4>
 
-                                                <p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
+                                                <p>Podemos observaren el video una inseminación que se llevo acabo en el campo</p>
 
-                                                <p>Custom work is branding, web design, UI/UX design</p>
+                                                <p>Un poco del trabajo que se realiza día a día en la veterinaria. </p>
 
                                                 <div class="mt-2 mt-lg-auto">
                                                     <a href="<?=URL_VIEW ?>contact.php" class="custom-link mb-2">
-                                                        Work with us
-                                                        <i class="bi-arrow-right ms-2"></i>
+                                                        Trabaja con nosotros!
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
-                                    <div class="row">
-                                        <div class="col-lg-7 col-12">
-                                            <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-5 col-12">
-                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                <h4 class="mb-3">What can help you?</h4>
-
-                                                <p>Over three years in business, We’ve had the chance on projects</p>
-
-                                                <div class="skill-thumb mt-3">
-
-                                                    <strong>Branding</strong>
-                                                        <span class="float-end">90%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                                            </div>
-
-                                                    <strong>Design & Stragety</strong>
-                                                        <span class="float-end">70%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                                                            </div>
-
-                                                    <strong>Online Platform</strong>
-                                                        <span class="float-end">80%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                                                            </div>
-
-                                                </div>
                                                 
-                                                <div class="mt-2 mt-lg-auto">
-                                                    <a href="<?=URL_VIEW ?>products.php" class="custom-link mb-2">
-                                                        Explore products
-                                                        <i class="bi-arrow-right ms-2"></i>
-                                                    </a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="front-product">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center">
-
-                        <div class="col-lg-6 col-12">
-                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="px-5 py-5 py-lg-0">
-                                
-                                <h2 class="mb-4"><span>Retail</span> shop owners</h2>
-
-                                <p class="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
-
-                                <a href="<?=URL_VIEW ?>products.php" class="custom-link">
-                                    Explore Products
-                                    <i class="bi-arrow-right ms-2"></i>
-                                </a>
                             </div>
                         </div>
 
