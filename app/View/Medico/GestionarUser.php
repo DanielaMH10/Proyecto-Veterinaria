@@ -21,7 +21,7 @@ include "../../../config.php";
     <!--?php include FOLDER_TEMPLATE . 'menu.php' ?-->
     <!-- Header section end-->
     <!-- Hero section end-->
-    <?php include FOLDER_VIEWS_MEDICO.'actualizar_usuario.php' ?>
+    <?php include FOLDER_VIEWS.'Medico/actualizar_usuario.php' ?>
 
 
     <!-- Modal -->

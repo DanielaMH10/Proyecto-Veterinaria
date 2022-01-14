@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="<?=URL_CSS ?>bootstrap-icons.css">
         <!--<script src=" URL_JS?>validacionLogin.js"></script>-->
         <?php include FOLDER_TEMPLATE . 'scripts.php' ?>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  
     </head>
     
