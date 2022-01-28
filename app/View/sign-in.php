@@ -12,8 +12,6 @@
         <link rel="stylesheet" href="<?=URL_CSS ?>bootstrap-icons.css">
         <!--<script src=" URL_JS?>validacionLogin.js"></script>-->
         <?php include FOLDER_TEMPLATE . 'scripts.php' ?>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  
     </head>
     
@@ -42,7 +40,7 @@
                                         <div class="form-floating mb-4 p-0">
                                             <input type="number" name="documento" id="documento"  class="form-control" placeholder="1111" required>
 
-                                            <label for="email">Documento</label>
+                                            <label>Documento</label>
                                         </div>
 
                                         <div class="form-floating p-0">

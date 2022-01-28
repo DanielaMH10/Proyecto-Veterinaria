@@ -122,6 +122,84 @@ class Usuario {
 
 		$conexion = null;
 	}
+
+	public function validarDatosCorrectos($numeroIdentificacion,$passwordUsuario){
+		$rows=null;
+		$estado=1;
+		$modelo = new Conexion();
+		$conexion = $modelo->getConection();					
+		$sql="SELECT COUNT(*) AS Correcto 
+		FROM usuarios 
+		WHERE NumeroIdentificacion='".$numeroIdentificacion."'
+		AND passwordUsuario='".$passwordUsuario."'";
+		$statement=$conexion->prepare($sql);			
+		$statement->execute();
+		while ($result=$statement->fetch()) {
+			$rows[]=$result;
+		}
+		return $rows;
+	}
+	public function validarExistencia($numeroIdentificacion){
+		$rows=null;
+		$estado=1;
+		$modelo = new Conexion();
+		$conexion = $modelo->getConection();					
+		$sql="SELECT COUNT(*) AS Cantidad 
+		FROM usuarios 
+		WHERE NumeroIdentificacion='".$numeroIdentificacion."'";
+		$statement=$conexion->prepare($sql);			
+		$statement->execute();
+		while ($result=$statement->fetch()) {
+			$rows[]=$result;
+		}
+		return $rows;
+	}
+	
+	public function validarLogin2($numeroIdentificacion){
+		$rows=null;
+		$estado=1;
+		$modelo = new Conexion();
+		$conexion = $modelo->getConection();					
+		$sql="CALL validar_login2('".$numeroIdentificacion."')";
+		$statement=$conexion->prepare($sql);			
+		$statement->execute();
+		while ($result=$statement->fetch()) {
+			$rows[]=$result;
+		}
+		return $rows;
+	}
+	public function validarLogin3($numeroIdentificacion){
+		$rows=null;
+		$estado=1;
+		$modelo = new Conexion();
+		$conexion = $modelo->getConection();					
+		$sql="SELECT estadoUsuario FROM usuarios where NumeroIdentificacion='".$numeroIdentificacion."'";
+		$statement=$conexion->prepare($sql);			
+		$statement->execute();
+		while ($result=$statement->fetch()) {
+			$rows[]=$result;
+		}
+		return $rows;
+	}
+	ublic function validarLoginUsuario($numeroIdentificacion,
+			$passwordUsuario,$rolFK,$estado){
+			$rows=null;
+			$estado=1;
+			$modelo = new Conexion();
+			$conexion = $modelo->getConection();					
+			$sql="SELECT COUNT(*) AS RESULTADO 
+			FROM usuarios 
+			WHERE NumeroIdentificacion='".$numeroIdentificacion."' 
+			AND passwordUsuario='".$passwordUsuario."' 
+			AND idRolFK='".$rolFK."' 
+			AND estadoUsuario=".$estado."";
+			$statement=$conexion->prepare($sql);			
+			$statement->execute();
+			while ($result=$statement->fetch()) {
+				$rows[]=$result;
+			}
+			return $rows;
+		}
 }
 
 ?>
